@@ -1,7 +1,7 @@
-# AntivirusStain
+# Wi-Fi 
 
-AntivirusStain roba todo lo que es documento de Adobe y las copia a una USB cuando la victima lo ejecute la aplicaciÃ³n.
-![](https://2.bp.blogspot.com/-Jpa300XYoVA/W_-YJ_a9BkI/AAAAAAAACIM/S3hLHke0eqQgEpzNPkPKxuD1ilT7d5VVwCLcBGAs/s1600/Captura.PNG)
+Cualquier sistema operativo guarda un registro de contraseñas usadas. No están a simple vista, pero si sabemos dónde buscar, las encontraremos. Lo mismo ocurre con las claves WiFi, que quedan registradas y que te permiten no tener que configurarla cada vez que te conectas. Sin embargo, si no la usas durante un tiempo puede que te la vuelva a pedir y tengas que acudir a este artículo.
+![](https://2.bp.blogspot.com/-XFgUd3Et6iU/XHNZ8hJAllI/AAAAAAAANtY/hTHDTTM3dbgPz5__p2MfhdYT57BmRFyvACLcBGAs/s1600/Screenshot_1.png)
 
 - MAS  https://www.lpericena.tk/2018/06/wi-fi.html
 
@@ -23,7 +23,7 @@ hasta finalizar
 ```
 
 ## Ejecutando las pruebas
-![](https://2.bp.blogspot.com/-pcjveMFRyPs/WzgG7BZfUJI/AAAAAAAALec/2jhy6c3UqpUxq9fIqICch4UjsSG5w6EMwCLcBGAs/s1600/wifi.png)
+![](https://4.bp.blogspot.com/-Oduj_bdJat8/XHNZ9wzeWWI/AAAAAAAANtk/4BR1t5jiqXI9m0vTRQSDXxI_auMsZVNnwCLcBGAs/s1600/Screenshot_4.png)
 visita la pagina web para que puedas ver el proceso de la instalaci¨®n y el uso
 https://www.lpericena.tk/2018/06/wi-fi.html
 
@@ -79,7 +79,6 @@ _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 
 * **Luishi?o Pericena Choque ** - *Desarrollo del software* - [Pericena](https://github.com/Pericena)
 
-Tambi¨¦n puedes mirar la lista de todos los [contribuyentes](https://github.com/Pericena/Antivirus-Stain/contributors) qu¨ªenes han participado en este proyecto. 
 
 ## Licencia ??
 
