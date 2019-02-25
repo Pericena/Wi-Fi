@@ -1,15 +1,9 @@
 # AntivirusStain
 
-AntivirusStain roba todo lo que es documento de Adobe y las copia a una USB cuando la victima lo ejecute la aplicaci√≥n.
+AntivirusStain roba todo lo que es documento de Adobe y las copia a una USB cuando la victima lo ejecute la aplicaci√É¬≥n.
 ![](https://2.bp.blogspot.com/-Jpa300XYoVA/W_-YJ_a9BkI/AAAAAAAACIM/S3hLHke0eqQgEpzNPkPKxuD1ilT7d5VVwCLcBGAs/s1600/Captura.PNG)
 
-- MAS INFORMACI®ÆN https://www.lpericena.tk/2017/11/antivirus-stain.html
-
-## Comenzando
-_Estas instrucciones te permitir®Æn obtener una copia del proyecto en funcionamiento en tu m®Æquina local para prop√≥sitos de desarrollo y pruebas._
-https://github.com/Pericena/Antivirus-Stain.git
-Mira **Deployment** para conocer como desplegar el proyecto.
-
+- MAS  https://www.lpericena.tk/2018/06/wi-fi.html
 
 ### Pre-requisitos
 _Que cosas necesitas para instalar el software y como instalarlas_
@@ -21,7 +15,7 @@ _Que cosas necesitas para instalar el software y como instalarlas_
 
 ### Instalacion
 ```
-Ejecutar el programa AntivirusStain.exe existe varias versiones para windows 7/10
+Ejecutar el programa Wifi.exe existe varias versiones para windows 7/10
 ```
 _Y repite_
 ```
@@ -29,21 +23,36 @@ hasta finalizar
 ```
 
 ## Ejecutando las pruebas
-![](https://1.bp.blogspot.com/-9Z6V_rgeHHE/XACPCjkbEYI/AAAAAAAACJA/Gg0o-w8ehcUsrWmZTDYPyxc9HLIfrQOVwCEwYBhgL/s1600/Captura8.PNG)
-visita la pagina web para que puedas ver el proceso de la instalaci®Æn y el uso
-https://www.lpericena.tk/2017/11/antivirus-stain.html
+![](https://2.bp.blogspot.com/-pcjveMFRyPs/WzgG7BZfUJI/AAAAAAAALec/2jhy6c3UqpUxq9fIqICch4UjsSG5w6EMwCLcBGAs/s1600/wifi.png)
+visita la pagina web para que puedas ver el proceso de la instalaci¬®¬Æn y el uso
+https://www.lpericena.tk/2018/06/wi-fi.html
 
-### Analice las pruebas end-to-end
+### Analice 
+```
+Rem --- Wifi-Export ---
+md c:\Config-WiFi
+netsh wlan export profile "XXXXXXXXX" folder=c:\Config-WiFi
+Rem --- Wifi-Import ---
+netsh wlan add profile filename="c:\Config-WiFi\XXXXXXXXX.xml" user=current
+-Mostar las Wifis configuradas:
+wlan show profiles
+-Exportar todas las Wifi configuradas:
+wlan export profile
+-Exportar un SSID concreto:
+wlan export profile name=‚ÄùSSID_DESEADO‚Äù folder=‚Äùcarpeta de destino‚Äù
+-Para importar un SSID en concreto:
+wlan add profile filename=‚ÄùSSID_RED.xml‚Äù
+mkdir wifi
+cd wifi
+netsh wlan export profile key=clear
+dir *.xml |% {
+$xml=[xml] (get-content $_)
+Write-Host $xml.WLANProfile.SSIDConfig.SSID.name `t $xml.WLANProfile.MSM.Security.sharedKey.keymaterial
+}
+cd ..
+rmdir -recurse wifi
+```
 
-```
-Aclarar que tambien tiene una opcion para que puedan ordenarse los archivos en una carpeta , por extecion
-```
-
-### Y las pruebas de estilo de codificaci®Æn
-
-```
-Puede demorar no mas de 2 minutos el escaneo, es un antivirus que puedes llevarlo en un usb , como dirian un software de bolsillo
-```
 
 ## Deployment 
 #### LICENSE
@@ -62,55 +71,19 @@ Puede demorar no mas de 2 minutos el escaneo, es un antivirus que puedes llevarl
 *  Misma licencia
 *  Cambios de estado
 *  Responsabilidad
-*  Garant®™a
+*  Garant¬®¬™a
 ```
 ## Construido con* [Notepad++](https://notepad-plus-plus.org/download/) - Editor de texto (IDE)
-
-## Contribuyendo
-Por favor lee el [CONTRIBUTING.md](https://github.com/Pericena/Antivirus-Stain) para detalles de nuestro c®Ædigo de conducta, y el proceso para enviarnos pull requests.
-
-## Versionado ??
-
-Usamos [version](https://github.com/Pericena/Antivirus-Stain/blob/master/version.txt) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/Pericena/AntivirusStain/tags).
-## Autores ?? 
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Luishi?o Pericena Choque ** - *Desarrollo del software* - [Pericena](https://github.com/Pericena)
 
-Tambi®¶n puedes mirar la lista de todos los [contribuyentes](https://github.com/Pericena/Antivirus-Stain/contributors) qu®™enes han participado en este proyecto. 
+Tambi¬®¬¶n puedes mirar la lista de todos los [contribuyentes](https://github.com/Pericena/Antivirus-Stain/contributors) qu¬®¬™enes han participado en este proyecto. 
 
 ## Licencia ??
 
-Este proyecto est®Æ bajo la Licencia (Licencia publica general de GNU) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud
-
-* Bueno espero que le sea de utilidad cualquier consulta pueden dirigirse a mis redes sociales:
-- ?? Blogger          https://lpericena.blogspot.com/
-- ?? Github            https://github.com/Pericena
-- ?? youtube.com  https://www.youtube.com/channel/UCELx1m-NeAdBn7mCuQ86kcw
-- ?? pinterest        https://es.pinterest.com/lushiopericena/
-- ?? twitter             https://twitter.com/LPericena
-- ?? linkedin         https://www.linkedin.com/in/lpericena/
-- ?? facebook       https://www.facebook.com/profile.php?id=100009309755063
-- ?? pagina facebook  https://www.facebook.com/lpericena
-- ?? sitio web        https://pericena.wordpress.com/
-- vimeo         https://vimeo.com/lpericena
-- ?? instagram      https://www.instagram.com/lpericena/
-- ?? remote      https://remote.com/luishinopericena-choque
-- ? google+   https://plus.google.com/u/0/114054031405340478901
-- ?? kiwi       https://kiwi.qa/LuishinoC
-- ?? App    https://apps.facebook.com/167466933725219
-- ?? Grupo    https://www.facebook.com/groups/122223121705126/?source_id=1506435219407506
-- ?? socialtools https://www.socialtools.me/index?action=demoApps&preview=1&app_id=406101
-- •ƒ teachlr    https://teachlr.com/lpericena
-- ??  wikipedia  https://es.wikipedia.org/wiki/Usuario:Luishi%C3%B1o_Pericena_Choque
-- ?? ask          https://ask.fm/Lpericena
-- ?? stackoverflow  https://stackoverflow.com/users/6506592/luishi%C3%B1o-pericena-choque
-- ?? wix https://lpericena.wixsite.com/curriculumvitae
-
-* Gracias
+Este proyecto est¬®¬Æ bajo la Licencia (Licencia publica general de GNU) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ---
 Por [Pericena](https://github.com/Pericena)
