@@ -3,7 +3,7 @@
 Cualquier sistema operativo guarda un registro de contraseñas usadas. No están a simple vista, pero si sabemos dónde buscar, las encontraremos. Lo mismo ocurre con las claves WiFi, que quedan registradas y que te permiten no tener que configurarla cada vez que te conectas. Sin embargo, si no la usas durante un tiempo puede que te la vuelva a pedir y tengas que acudir a este artículo.
 ![](https://2.bp.blogspot.com/-XFgUd3Et6iU/XHNZ8hJAllI/AAAAAAAANtY/hTHDTTM3dbgPz5__p2MfhdYT57BmRFyvACLcBGAs/s1600/Screenshot_1.png)
 
-- MAS  https://www.lpericena.tk/2018/06/wi-fi.html
+- MAS  https://lpericena.blogspot.com/2018/10/wifi.html
 
 ### Pre-requisitos
 _Que cosas necesitas para instalar el software y como instalarlas_
@@ -25,7 +25,7 @@ hasta finalizar
 ## Ejecutando las pruebas
 ![](https://4.bp.blogspot.com/-Oduj_bdJat8/XHNZ9wzeWWI/AAAAAAAANtk/4BR1t5jiqXI9m0vTRQSDXxI_auMsZVNnwCLcBGAs/s1600/Screenshot_4.png)
 visita la pagina web para que puedas ver el proceso de la instalaci¨®n y el uso
-https://www.lpericena.tk/2018/06/wi-fi.html
+https://lpericena.blogspot.com/2018/10/wifi.html
 
 ### Analice 
 ```
